@@ -106,12 +106,14 @@ html,body
     }
 }
 
+.color-primary{color:rgba(134,22,34,1);}
+.color-secondary{ color: rgba(255,255,255,1); }
 
-.color-primary, .bg-primary, .border-primary{ background-color: rgba(134,22,34,1); }
+.bg-primary, .border-primary{ background-color: rgba(134,22,34,1); }
 .bg-primary p, .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6, .bg-primary a { color: white; }
 
-.color-secondary, .bg-secondary, .border-secondary{ background-color: rgba(255,255,255,1); }
-.bg-secondary p, .bg-secondary h1, .bg-secondary h2, .bg-secondary h3, .bg-secondary h4, .bg-secondary h5, .bg-secondary h6, .bg-secondary a { color: rgba(134,22,34,1); }
+.bg-secondary, .border-secondary{ color: rgba(255,255,255,1); }
+.bg-secondary p, .bg-secondary h1, .bg-secondary h2, .bg-secondary h3, .bg-secondary h4, .bg-secondary h5, .bg-secondary h6, .bg-secondary a { background-color: rgba(134,22,34,1); }
 
 .space{ padding: 15px 5px; }
 
