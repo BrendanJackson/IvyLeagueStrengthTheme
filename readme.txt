@@ -1,4 +1,4 @@
-=== WP Bootstrap Starter ===
+=== Ivy League Strength Bootstrap Starter ===
 
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 Requires at least: 4.0
@@ -46,7 +46,7 @@ This theme will be an active project which we will update from time to time. Che
 
 = Does this theme support any plugins? =
 
-WP Bootstrap Starter includes support for Infinite Scroll in Jetpack.
+Ivy League Strength  Bootstrap Starter includes support for Infinite Scroll in Jetpack.
 
 == Credits ==
 
