@@ -87,6 +87,10 @@ html,body
 }
 
 /* Functional Classes */
+.flex-column{
+    display:flex;
+    flex-column: column;
+}
 .flex-center {
     display: flex;
     place-content: center;
@@ -94,10 +98,21 @@ html,body
     place-items: center;
 }
 
+.ul--flex-start{
+    width: 50%;
+    place-items: flex-start;
+    place-self: center;
+}
 
 /* Main Social Link */
 .social {
     padding: 50px 16px;
+}
+
+@media (min-width: 576px) {
+    .desktop--height {
+        height:100%;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -141,8 +156,11 @@ div#mc_embed_signup span,
 }
 
 
-.studio-info{
+.studio-info, .center{
     text-align: center;
+    place-content: center;
+    place-items: center;
+    place-self: center;
 }
 
 .studio-info h1
