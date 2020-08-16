@@ -86,6 +86,11 @@ html,body
     overflow-x: hidden;
 }
 
+p, li {
+    max-width: 1200px;
+    font-size: 14px;
+}
+
 /* Functional Classes */
 .flex-column{
     display:flex;
